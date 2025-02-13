@@ -49,7 +49,9 @@ API simulando uma plataforma de pagamentos, inspirada no PicPay. Desenvolvido pa
 ## 📞 Contato
 **Nome:** Jonas Lima  
 **GitHub:** [jonasvlima](https://github.com/jonasvlima)  
-**LinkedIn:** [Jonas Lima](https://www.linkedin.com/in/jonas-lima)
+**LinkedIn:** [Jonas Lima](https://www.linkedin.com/in/jonas-lima-212901261/)
 
 🚀 **Projeto concluído!**
+
+
 
