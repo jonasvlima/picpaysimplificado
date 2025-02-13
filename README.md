@@ -1,63 +1,55 @@
-# picpaysimplificado
- 
-PicPaySimplificado
+# PicPaySimplificado
+
 API simulando uma plataforma de pagamentos, inspirada no PicPay. Desenvolvido para portfólio.
 
-Funcionalidades
-Criar usuários (COMUM ou LOJISTA).
+## 🚀 Funcionalidades
+- Criar usuários (COMUM ou LOJISTA).
+- Realizar transferências entre usuários.
+- Validar saldo e regras de negócio (LOJISTA não pode enviar dinheiro).
 
-Realizar transferências entre usuários.
+## 🛠 Tecnologias Utilizadas
+- **Java 17**
+- **Spring Boot**
+- **Banco de Dados H2** (em memória)
+- **Maven**
+- **Insomnia** (para testes de API)
 
-Validar saldo e regras de negócio (LOJISTA não pode enviar dinheiro).
+## ▶️ Como Executar
 
-Tecnologias
-Java 17
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/jonasvlima/PicPaySimplificado.git
+   ```
 
-Spring Boot
+2. Acesse a pasta do projeto:
+   ```bash
+   cd PicPaySimplificado
+   ```
 
-Banco de Dados H2 (em memória)
+3. Execute o projeto:
+   ```bash
+   mvn spring-boot:run
+   ```
 
-Maven
+4. A API estará disponível em:
+   ```
+   http://localhost:8080
+   ```
 
-Insomnia (para testes de API)
+## 🔗 Endpoints
 
-Como Executar
-Clone o repositório:
+- `POST /users` - Cria um novo usuário.
+- `POST /transactions` - Realiza uma transferência.
 
-bash
-Copy
-git clone https://github.com/jonasvlima/PicPaySimplificado.git
-Navegue até a pasta do projeto:
+## 🔮 Melhorias Futuras
+- Adicionar autenticação.
+- Implementar notificações (e-mail/SMS).
+- Utilizar um banco de dados real (MySQL/PostgreSQL).
 
-bash
-Copy
-cd PicPaySimplificado
-Execute o projeto:
+## 📞 Contato
+**Nome:** Jonas Lima  
+**GitHub:** [jonasvlima](https://github.com/jonasvlima)  
+**LinkedIn:** [Jonas Lima](https://www.linkedin.com/in/jonas-lima)
 
-bash
-Copy
-mvn spring-boot:run
-Acesse a API em:
+🚀 **Projeto concluído!**
 
-http://localhost:8080
-
-Endpoints
-POST /users - Cria um usuário.
-
-POST /transactions - Realiza uma transferência.
-
-Melhorias Futuras
-Adicionar autenticação.
-
-Implementar notificações (e-mail/SMS).
-
-Usar banco de dados real (MySQL/PostgreSQL).
-
-Contato
-Nome: Jonas Lima
-
-GitHub: jonasvlima
-
-LinkedIn: Jonas Lima
-
-Projeto concluído! 🚀
