@@ -1,6 +1,6 @@
 # PicPaySimplificado
 
-API simulando uma plataforma de pagamentos, inspirada no PicPay. Desenvolvido para portfólio.
+API simulando uma plataforma de pagamentos, inspirada no PicPay. 
 
 ## 🚀 Funcionalidades
 - Criar usuários (COMUM ou LOJISTA).
